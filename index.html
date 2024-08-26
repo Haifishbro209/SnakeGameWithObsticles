@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div id="startContainer">
+    
+    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+     id="startBtn" onclick="gameStart()">
+        Start
+      </button>
+      <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+        id="resetBtn">
+           Reset
+       </button>
+</div>   
+
+    <div id="gameContainer">
+        <canvas id="gameBoard" width= "1300" height="700"></canvas>
+        
+    </div>
+  <script src="script.js"></script>
+</body>
+</html>
